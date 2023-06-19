@@ -51,7 +51,7 @@ app.use("/api", empleadoRoutes);
 // Routes CU Xavier
 app.use("/api",ordenRoutes);
 //Servir Imagenes
-app.use("/api/Imagenes/", express.static(`${__dirname}/storage/images`));
+//app.use("/api/Imagenes/", express.static(`${__dirname}/storage/images`));
 
 export default app;
 
